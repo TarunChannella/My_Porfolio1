@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">PORTFOLIO</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" onclick="showSection('about')" style="--i:2">About</a>
+            <a href="#skills" onclick="showSection('skills')" style="--i:3">Skills</a>
+            <a href="#projects" onclick="showSection('projects')" style="--i:4">Projects</a>
+            <a href="#contact" onclick="showSection('contact')" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="home active">
+        <div class="home-content">
+            <h3>Hello It's Me</h3>
+            <h1>Tarun Channella</h1>
+            <h3>and I'm a <span class="text"></span></h3>
+            <p>i'm a web Designer with good experience for over 1 year. <br>Expertise is to create website design, and web applications</p>
+            <div class="home-sci">
+                <a href="#" style="--i:6"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <div>
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+        </div>    
+    </section>
+    <section id="about">
+        <div class="content">
+            <h1>About Me</h1>
+            <img src="img1.jpg" style= "height: 300px; width: 300px; margin-right: 980px; margin-top: 100px; float: center;" alt="">
+            <p style="text-align: center; margin-top: -250px;">Hello! I'm Tarun Channella a passionate second-year B.Tech student majoring in <br> 
+                Computer Science and Engineering (CSE) with a specialization in Artificial <br>
+                Intelligence and Machine Learning (AIML)at NRI Institute of Technology, <br>
+                Agiripalli Always eager to learn and stay updated with the latest technological <br>
+                advancements, I am committed to leveraging my skills to develop innovative <br>
+                solutions that address real-world problems. My interests lie in creating new web <br>
+                applications, innovative interfaces, andbuilding impactful projects..</p>
+                <h4 style="margin-left: 880px; margin-top: 100px; font-weight: 700;">-Tarun Channella</h4>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="content">
+            <h1>Skills</h1>
+            <div class="skills-container"> 
+                <div class="skill-box"><img src="https://img.icons8.com/?size=48&id=20909&format=png">HTML</div>
+                <div class="skill-box"><img src="https://img.icons8.com/?size=48&id=7gdY5qNXaKC0&format=png" alt="">CSS</div>
+                <div class="skill-box"><img src="https://img.icons8.com/?size=48&id=13679&format=png" alt="">Java</div>
+                <div class="skill-box"><img src="https://img.icons8.com/?size=48&id=l75OEUJkPAk4&format=png" alt="">Python</div>
+                <div class="skill-box"><img src="https://img.icons8.com/?size=48&id=74402&format=png" alt="">MongoDB</div>
+                <div class="skill-box" style="height: 97px;"><img src="https://img.icons8.com/?size=80&id=ywH6EJgZ7sm5&format=png" alt="">MySQL</div> 
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="content">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="project-box"><img src="https://img.icons8.com/?size=80&id=WqbHQ1d7sdKN&format=png" alt="">Spotify-clone</div>
+                <div class="project-box"><img src="https://img.icons8.com/?size=48&id=sVA9FsClELsp&format=png" alt="">Language Translator</div>
+                <div class="project-box"><img src="https://img.icons8.com/?size=64&id=J3nZHWgT1e7m&format=png" alt="">Portfolios</div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="content">
+            <h1>Contact</h1>
+            <div class="contact-container"> 
+            <div class="contact-box">
+                <img src="https://img.icons8.com/?size=50&id=12580&format=png" alt=""> 
+                <h2>Email</h2> 
+                <p>tarunchannella@gmail.com</p> 
+            </div>
+            <div class="contact-box">
+                <img src="https://img.icons8.com/?size=50&id=9659&format=png" alt="">
+                <h2>Phone</h2>
+                <p>+91 9666692443</p>
+            </div>
+            <div class="contact-box">
+                <img src="https://img.icons8.com/?size=50&id=3723&format=png" alt="">
+                <h2>Location</h2>
+                <p>Vijayawada, Andhra Pradesh, India</p>
+            </div>
+        </div>
+    </section>
+ 
+    <script src="main.js"></script>
+  
+</body>
+</html>
