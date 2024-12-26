@@ -1,7 +1,9 @@
-Overview
+Overview:
+
 Welcome to my personal portfolio website. This project showcases my skills, projects, and contact information in a sleek, modern design. It is built using HTML, CSS, and JavaScript, with additional styling from external libraries.
 
-Features
+Features:
+
 ->  Home: Introduction with a brief bio.
 
 ->  About: Detailed information about me.
@@ -12,7 +14,8 @@ Features
 
 ->Contact: Information on how to get in touch with me.
 
-Technologies Used
+Technologies Used:
+
 ->  HTML
 
 ->  CSS
