@@ -3,14 +3,22 @@ Welcome to my personal portfolio website. This project showcases my skills, proj
 
 Features
 ->  Home: Introduction with a brief bio.
+
 ->  About: Detailed information about me.
+
 ->  Skills: A list of my technical skills with icons.
+
 ->  Projects: A showcase of my notable projects.
-->  Contact: Information on how to get in touch with me.
+
+->Contact: Information on how to get in touch with me.
 
 Technologies Used
 ->  HTML
+
 ->  CSS
+
 ->  JavaScript
+
 ->  Boxicons
+
 ->  Typed.js
