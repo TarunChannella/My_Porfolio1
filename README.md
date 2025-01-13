@@ -25,3 +25,4 @@ Technologies Used:
 ->  Boxicons
 
 ->  Typed.js
+
